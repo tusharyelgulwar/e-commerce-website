@@ -1,0 +1,166 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1E1F29;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  font-size: 45px;
+}
+
+.logo-animation {
+  animation: neonGlow 1.5s ease infinite alternate;
+}
+
+@keyframes neonGlow {
+  from {
+    color: #fff;
+  }
+  to {
+    color: red;
+  }
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+
+.cart-count {
+  position: absolute;
+  top: 12px;
+  right: 40px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 9px;
+}
+
+
+.navigationbar p:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+#navigation {
+  background: #FFF;
+  border-bottom: 2px solid #E4E7ED;
+  border-top: 3px solid #D10024;
+}
+
+
+body {
+  background-color: #1E1F29;
+  margin: 0;
+  overflow-x: hidden;
+}
+h1{
+  width: auto;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.items {
+  width: 50%;
+  height: 325px;
+  margin: 50px;
+  padding-top: 10px;
+  border-radius: 30px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  box-shadow: 13px 13px 13px rgb(248, 153, 119);
+  transition: 0.3s;
+  background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .items { width: calc(33.333% - 26.666px); }
+}
+
+@media screen and (min-width: 1024px) {
+  .items { width: calc(25% - 30px); }
+}
+
+.items:hover {
+  box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.5)
+}
+
+img {
+  width: 45%;
+  height: 200px;
+  border-radius: 20px;
+  transition: 0.3s;
+  object-fit: cover;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: 0.3s;
+}
+
+.add-to-cart {
+  background-color: #e23e0a;
+}
+
+.add-to-cart-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #1E1F29;
+  color: #fff;
+}

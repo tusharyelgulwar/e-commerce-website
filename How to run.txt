@@ -1,0 +1,15 @@
+Steps to run
+ First we need to run the backend through the terminal as explained in below points
+
+ --> first open terminal
+
+ --> Now change the directory to the required location, In our case the directory should be in "wsd backend" at present it is located in "C:\Subjects	\WebSystems Development\wsd project\wsd backend" in our computer
+
+
+ --> We have to activate the virtual environment which is created only for this project, by entering the commade in terminal "pipenv shell" Now a virtual 	environment gets activated
+
+ --> Now change the directory to "cd backend"
+
+ --> Now activate the server by typing "python manage.py runserver".
+
+ --> Now open the index file which is in the wsd frontend directory.
